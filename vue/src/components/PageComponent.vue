@@ -6,8 +6,8 @@
             <slot name="header"></slot>
         </div>
     </header>
-    <main>
-        <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+    <main class="bg-gray-100">
+        <div class=" max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             <div class="px-4 py-6 sm:px-0">
                 <!-- content  -->
                 <slot></slot>

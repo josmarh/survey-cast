@@ -9,7 +9,7 @@ const tmpSurveys = [
         status: "draft",
         image: 
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-        description: "My name is Joshua. <br> I am a web developer with 4 years of experience, free education consultant",
+        description: "My name is Joshua. \nI am a web developer with 4 years of experience, free education consultant",
         created_at: "2021-12-20 18:00:00",
         updated_at: "2021-12-20 18:00:00",
         expire_at: "2021-12-20 18:00:00",
@@ -71,6 +71,7 @@ const store = createStore({
             token: sessionStorage.getItem('TOKEN')
         },
         surveys: [...tmpSurveys],
+        questionTypes: ["text","select","radio","checkbox","textarea"],
     },
     getters: {},
     actions: {
