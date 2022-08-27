@@ -11,6 +11,7 @@ import store from "../store";
 import Test from '../views/test/Test.vue'
 import MobileView from '../views/test/mobile-view.vue'
 import ColorShapes from '../views/test/color-shapes.vue'
+import Pagination from '../views/test/pagination-arr.vue'
 
 const routes = [
     {
@@ -38,6 +39,7 @@ const routes = [
     {path: '/test', name: 'Test', component: Test},
     {path: '/mobile', name: 'MobileView', component: MobileView},
     {path: '/cshapes', name: 'ColorShapes', component: ColorShapes},
+    {path: '/pagination', name: 'Pagination', component: Pagination},
 ];
 
 const router = createRouter({
